@@ -12,9 +12,7 @@
 
 
 # Introduction
->**Illustration of Somatic Variant**
 
-![somatic](./somatic_variant_ilustration.png)
 >**Pipeline**:
 
 ![pipeline](./CNV_somatics_pipeline.png)
