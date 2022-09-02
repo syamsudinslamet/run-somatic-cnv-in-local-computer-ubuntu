@@ -60,6 +60,13 @@ mkdir $wd/sandbox
 ## 3. Collect Coverage Count
 
 ```bash
+gatk PreprocessIntervals 
+	-R $wd/ref/Homo_sapiens_assembly38.fasta 
+	-O $wd/sandbox/wgs.preprocessed.interval_list
+	--padding 250
+	--bin-length 1000
+	--interval-merging-rule OVERLAPPING_ONLY
+	
 #tumor sample
 $gatk CollectReadCounts \
 	-I $wd/bams/tumor.bam \
@@ -216,3 +223,14 @@ tail -5 sandbox/segment/hcc1143_T_clean.called.seg
 ![image5](./image5.png)
 
 *This tool adds a column to the segmented copy-ratio .cr.seg file from ModelSegments, marking amplifications (+), deletions (-), and neutral segments (0)*
+
+## 8. Additional Steps
+The result showed on step 7 that Coverage data can offer clues towards deducing which type of CNV is likely, i.e. amplification (+), deletion (-), and neutral on each intervals. 
+
+But we can squeeze more juice out of the lemon! we can model segments using both allelic counts and coverage data for a matched-control case.
+
+The allelic count can helps deduce if whether the tumor sample underwent loss of heterozygosity (LOH) for the allele or not.
+
+More details of this step can be seen on files with .wdl extension on this github. 
+
+
