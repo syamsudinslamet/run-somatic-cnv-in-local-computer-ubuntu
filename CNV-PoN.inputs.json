@@ -1,0 +1,16 @@
+{
+  "PanelofNormal.inputBams": [
+  	"/home/sslamet/book/somatic/bams/normal.bam"
+  	],
+  "PanelofNormal.inputBamIndexes": [
+  	"/home/sslamet/book/somatic/bams/normal.bai"
+  	],
+  "PanelofNormal.referenceFasta": "/home/sslamet/book/somatic/ref/Homo_sapiens_assembly38.fasta",
+  "PanelofNormal.referenceFastaFai": "/home/sslamet/book/somatic/ref/Homo_sapiens_assembly38.fasta.fai",
+  "PanelofNormal.referenceFastaDict": "/home/sslamet/book/somatic/ref/Homo_sapiens_assembly38.dict",
+  "PanelofNormal.performExplicitGcCorrection": "true",
+  "PanelofNormal.regions": "/home/sslamet/book/somatic/resources/targets_chr17.interval_list",
+  "PanelofNormal.gatk": "sudo /home/xji3/RestoredBackup/home/xji3/GitFolders/gatk/gatk",
+  "PanelofNormal.outputDir": "/home/sslamet/book/somatic/sandbox/PON"
+}
+

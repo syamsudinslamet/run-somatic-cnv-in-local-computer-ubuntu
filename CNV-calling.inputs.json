@@ -1,0 +1,17 @@
+{
+  "PairedCnvCalling.controlBam": "/home/sslamet/book/somatic/bams/normal.bam",
+  "PairedCnvCalling.controlBamIndex": "/home/sslamet/book/somatic/bams/normal.bai",
+  "PairedCnvCalling.caseBam": "/home/sslamet/book/somatic/bams/tumor.bam",
+  "PairedCnvCalling.caseBamIndex": "/home/sslamet/book/somatic/bams/tumor.bai",
+  "PairedCnvCalling.referenceFasta": "/home/sslamet/book/somatic/ref/Homo_sapiens_assembly38.fasta",
+  "PairedCnvCalling.referenceFastaDict": "/home/sslamet/book/somatic/ref/Homo_sapiens_assembly38.dict",
+  "PairedCnvCalling.referenceFastaFai": "/home/sslamet/book/somatic/ref/Homo_sapiens_assembly38.fasta.fai",
+  "PairedCnvCalling.PON": "/home/sslamet/book/somatic/sandbox/PON/cnv.pon.hdf5",
+  "PairedCnvCalling.preprocessedIntervals": "/home/sslamet/book/somatic/sandbox/PON/preprocessed.interval_list",
+  "PairedCnvCalling.commonVariantSites": "/home/sslamet/book/somatic/resources/theta_snps_paddedC_chr17.vcf.gz",
+  "PairedCnvCalling.commonVariantSitesIndex": "/home/sslamet/book/somatic/resources/theta_snps_paddedC_chr17.vcf.gz.tbi",
+  "PairedCnvCalling.outputDir": "/home/sslamet/book/somatic/sandbox/CNV",
+  "PairedCnvCalling.gatk": "sudo /home/xji3/RestoredBackup/home/xji3/GitFolders/gatk/gatk",
+  "PairedCnvCalling.minimumContigLength": 46709983
+}
+
